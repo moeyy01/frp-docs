@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // refer https://vitepress.vuejs.org/config/introduction for details
 export default defineConfig({
+  base: '/frp/',
   lang: 'cn-ZH',
   title: 'Moeyy Frp',
   description: '免费的 Frp 服务器',
